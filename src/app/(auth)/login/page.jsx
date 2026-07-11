@@ -14,7 +14,7 @@ const LoginPage = () => {
       console.log(data)
    }
 
-   console.log("error", errors)
+  console.log("error", errors)
 
 
 
