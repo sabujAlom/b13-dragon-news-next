@@ -61,7 +61,7 @@ const LoginPage = () => {
               })}
               placeholder="Type here password"
             />
-            <span className="absolute right-2 top-4.5"  onClick={()=>setIsShowPassword(!isShowPassword)}>
+            <span className="absolute right-2 top-4.5 cursor-pointer"  onClick={()=>setIsShowPassword(!isShowPassword)}>
              {isShowPassword ? <FaEye/>: <FaEyeSlash/>} 
             </span>
             {errors.password && (
