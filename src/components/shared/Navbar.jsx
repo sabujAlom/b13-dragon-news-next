@@ -40,6 +40,7 @@ const Navbar = () => {
           alt="User avatar"
           width={60}
           height={60}
+          className="h-12 w-12 rounded-full object-cover shadow-lg"
         />
         <button className="btn bg-purple-500 text-white" onClick={async()=>await authClient.signOut()}>Logout</button>
       </div>
